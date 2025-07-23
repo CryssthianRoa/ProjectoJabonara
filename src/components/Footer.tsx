@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center space-x-1 mb-4 md:mb-0">
             <span>© {currentYear} Jabonara. Hecho con</span>
             <Heart size={16} className="text-pink-400 mx-1" />
-            <span>en Colombia</span>
+            <span>en Colombia por Cryssthian Roa</span>
           </div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-colors duration-200">
