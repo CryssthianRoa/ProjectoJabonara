@@ -1,5 +1,6 @@
 import React from 'react';
 import { Droplets, Leaf, Heart, Package } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Process: React.FC = () => {
   const steps = [
@@ -150,12 +151,18 @@ const Process: React.FC = () => {
           <p className="text-pink-100 text-lg mb-8 max-w-2xl mx-auto">
             Experimenta la diferencia de los productos artesanales naturales
           </p>
-          <a
+          <Link
+              to="/products"
+              className="bg-white text-pink-600 px-8 py-3 rounded-lg font-semibold hover:bg-pink-50 transition-all duration-200 transform hover:scale-105"
+            >
+              Ver Productos
+            </Link>
+          {/* <a
             href="/products"
             className="inline-flex items-center space-x-2 bg-white text-pink-600 px-8 py-3 rounded-lg font-semibold hover:bg-pink-50 transition-all duration-200 transform hover:scale-105"
           >
             <span>Ver Productos</span>
-          </a>
+          </a> */}
         </div>
       </section>
     </div>
