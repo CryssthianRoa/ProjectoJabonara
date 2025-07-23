@@ -1,0 +1,1 @@
+Coloca aquí tu imagen de logo con el nombre "logo.png" o "logo.jpg".
