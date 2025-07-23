@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Instagram, Facebook, Mail, Phone } from 'lucide-react';
+import logoImage from '../assets/images/LogoJabonara.jpeg';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -12,9 +13,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">JA</span>
-              </div>
+             <img src={logoImage} alt="Jabonara Logo" className="w-10 h-10 rounded-full object-cover" />
               <span className="text-xl font-bold">Jabonara</span>
             </div>
             <p className="text-gray-300 text-sm">
